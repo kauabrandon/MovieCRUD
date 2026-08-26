@@ -104,7 +104,7 @@ public abstract class Support {
         this.closedAt = LocalDateTime.now();
     }
 
-    public abstract SupportType getType();
+    public abstract SupportType                 getType();
 
     public abstract String getHandlingInstructions();
 
@@ -123,15 +123,6 @@ public abstract class Support {
 
     @Override
     public String toString() {
-        return "Support{" +
-                "id=" + id +
-                ", requester=" + requester +
-                ", subject='" + subject + '\'' +
-                ", description='" + description + '\'' +
-                ", status=" + status +
-                ", priorityLevel=" + priorityLevel +
-                ", openedAt=" + openedAt +
-                ", closedAt=" + closedAt +
-                '}';
+        return String.format("[%s] #%d - %s (%s) - %s", getType().getDescST(), id, subject, priorityLevel.getDescPL(), status.getDescSS() );
     }
 }

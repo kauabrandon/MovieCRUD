@@ -104,14 +104,6 @@ public class Loan {
 
     @Override
     public String toString() {
-        return "Loan{" +
-                "id=" + id +
-                ", user=" + user +
-                ", movie=" + movie +
-                ", loanDate=" + loanDate +
-                ", dueDate=" + dueDate +
-                ", returnDate=" + returnDate +
-                ", returned=" + returned +
-                '}';
+        return String.format("Loan #%d -> %s (due: %s)", id, movie.getTitle(), user.getName(), dueDate);
     }
 }

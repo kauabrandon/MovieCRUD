@@ -89,14 +89,6 @@ public class Movie {
 
     @Override
     public String toString() {
-        return "Movie{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", director='" + director + '\'' +
-                ", releaseYear=" + releaseYear +
-                ", movieGenre=" + movieGenre +
-                ", movieStatus=" + movieStatus +
-                ", synopsis='" + synopsis + '\'' +
-                '}';
+        return String.format("%s (%d) - %s [%s]", title, releaseYear, movieGenre.getDescMG(), movieStatus.getDescMS());
     }
 }

@@ -68,11 +68,6 @@ public abstract class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", nome='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", senha='" + password + '\'' +
-                '}';
+        return String.format("[%s] %s (%s)", getUserType().getDescUT(), name, email);
     }
 }
