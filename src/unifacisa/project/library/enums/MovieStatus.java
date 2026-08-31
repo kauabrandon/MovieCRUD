@@ -1,4 +1,4 @@
-package unifacisa.project.library.model.enums;
+package unifacisa.project.library.enums;
 
 public enum MovieStatus {
     AVAILABLE("Available"), UNAVAILABLE("Unavailable"), BORROWED("Borrowed");

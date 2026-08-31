@@ -1,4 +1,4 @@
-package unifacisa.project.library.model.enums;
+package unifacisa.project.library.enums;
 
 public enum MovieGenre {
     ACTION("Action"), ADVENTURE("Adventure"), COMEDY("Comedy"), DRAMA("Drama"), HORROR("Horror"), SCIENCEFICTION("Science-Fiction"), ROMANCE("Romance"), ANIMATION("Animation"), DOCUMENTARY("Documentary"), THRILLER("Thriller");

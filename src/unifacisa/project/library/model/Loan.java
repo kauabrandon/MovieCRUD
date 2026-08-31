@@ -104,6 +104,6 @@ public class Loan {
 
     @Override
     public String toString() {
-        return String.format("Loan #%d -> %s (due: %s)", id, movie.getTitle(), user.getName(), dueDate);
+        return String.format("Loan #%d - %s -> %s (due: %s)", id, movie.getTitle(), user.getName(), dueDate);
     }
 }

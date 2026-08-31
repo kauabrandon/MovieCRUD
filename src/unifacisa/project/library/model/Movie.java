@@ -1,7 +1,7 @@
 package unifacisa.project.library.model;
 
-import unifacisa.project.library.model.enums.MovieGenre;
-import unifacisa.project.library.model.enums.MovieStatus;
+import unifacisa.project.library.enums.MovieGenre;
+import unifacisa.project.library.enums.MovieStatus;
 
 import java.util.Objects;
 
@@ -13,6 +13,16 @@ public class Movie {
     private MovieGenre movieGenre;
     private MovieStatus movieStatus;
     private String synopsis;
+
+    public Movie(Long id, String title, String director, int releaseYear, MovieGenre movieGenre, String synopsis) {
+        this.id = id;
+        this.title = title;
+        this.director = director;
+        this.releaseYear = releaseYear;
+        this.movieGenre = movieGenre;
+        this.synopsis = synopsis;
+        this.movieStatus = MovieStatus.AVAILABLE;
+    }
 
     public Long getId() {
         return id;
@@ -70,8 +80,8 @@ public class Movie {
         this.synopsis = synopsis;
     }
 
-    public MovieStatus isAvailable() {
-        return this.movieStatus = MovieStatus.AVAILABLE;
+    public boolean isAvailable() {
+        return this.movieStatus == MovieStatus.AVAILABLE;
     }
 
     @Override

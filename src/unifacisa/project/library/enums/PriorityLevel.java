@@ -1,4 +1,4 @@
-package unifacisa.project.library.model.enums;
+package unifacisa.project.library.enums;
 
 public enum PriorityLevel {
     LOW("Low Priority"), MEDIUM("Medium Priority"), HIGH("High Priority"), URGENT("Urgent Priority");

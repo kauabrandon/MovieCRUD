@@ -1,12 +1,12 @@
 package unifacisa.project.library.model;
 
-import unifacisa.project.library.model.enums.PriorityLevel;
-import unifacisa.project.library.model.enums.SupportType;
+import unifacisa.project.library.enums.PriorityLevel;
+import unifacisa.project.library.enums.SupportType;
 
 public class QuestionSupport extends Support{
     private String topic;
 
-    protected QuestionSupport(Long id, User requester, String subject, String description, PriorityLevel priorityLevel, String topic) {
+    public QuestionSupport(Long id, User requester, String subject, String description, PriorityLevel priorityLevel, String topic) {
         super(id, requester, subject, description, priorityLevel);
         this.topic = topic;
     }

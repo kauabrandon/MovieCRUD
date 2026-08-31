@@ -1,6 +1,6 @@
 package unifacisa.project.library.model;
 
-import unifacisa.project.library.model.enums.UserType;
+import unifacisa.project.library.enums.UserType;
 
 import java.util.Objects;
 
@@ -69,5 +69,9 @@ public abstract class User {
     @Override
     public String toString() {
         return String.format("[%s] %s (%s)", getUserType().getDescUT(), name, email);
+    }
+
+    public boolean autheticate(String enteredPassword) {
+        return this.password != null && this.password.equals(enteredPassword);
     }
 }

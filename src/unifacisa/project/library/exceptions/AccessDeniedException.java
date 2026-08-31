@@ -1,4 +1,4 @@
-package unifacisa.project.library.model.exceptions;
+package unifacisa.project.library.exceptions;
 
 public class AccessDeniedException extends RuntimeException {
     public AccessDeniedException(String message) {

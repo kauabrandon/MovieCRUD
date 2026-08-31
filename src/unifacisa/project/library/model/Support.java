@@ -1,8 +1,8 @@
 package unifacisa.project.library.model;
 
-import unifacisa.project.library.model.enums.PriorityLevel;
-import unifacisa.project.library.model.enums.SupportStatus;
-import unifacisa.project.library.model.enums.SupportType;
+import unifacisa.project.library.enums.PriorityLevel;
+import unifacisa.project.library.enums.SupportStatus;
+import unifacisa.project.library.enums.SupportType;
 
 import java.time.LocalDateTime;
 import java.util.Objects;

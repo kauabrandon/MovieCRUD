@@ -1,4 +1,4 @@
-package unifacisa.project.library.model.exceptions;
+package unifacisa.project.library.exceptions;
 
 public class MovieUnavailableException extends RuntimeException {
     public MovieUnavailableException(String message) {

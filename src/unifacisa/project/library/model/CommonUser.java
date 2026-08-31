@@ -1,6 +1,6 @@
 package unifacisa.project.library.model;
 
-import unifacisa.project.library.model.enums.UserType;
+import unifacisa.project.library.enums.UserType;
 
 import java.util.ArrayList;
 import java.util.List;

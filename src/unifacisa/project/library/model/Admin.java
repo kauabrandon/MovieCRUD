@@ -1,7 +1,7 @@
 package unifacisa.project.library.model;
 
-import unifacisa.project.library.model.enums.AccessLevel;
-import unifacisa.project.library.model.enums.UserType;
+import unifacisa.project.library.enums.AccessLevel;
+import unifacisa.project.library.enums.UserType;
 
 public class Admin extends User{
     private AccessLevel accessLevel;

@@ -1,4 +1,4 @@
-package unifacisa.project.library.model.enums;
+package unifacisa.project.library.enums;
 
 public enum SupportStatus {
     OPEN("Open"), INPROGRESS("In-Progress"), RESOLVED("Resolved"), CLOSED("Closed");

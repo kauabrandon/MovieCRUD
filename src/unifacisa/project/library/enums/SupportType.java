@@ -1,4 +1,4 @@
-package unifacisa.project.library.model.enums;
+package unifacisa.project.library.enums;
 
 public enum SupportType {
     TECHNICAL("Technical"), QUESTION("Question"), COMPLAINT("Complaint");

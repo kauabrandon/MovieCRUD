@@ -1,4 +1,4 @@
-package unifacisa.project.library.model.exceptions;
+package unifacisa.project.library.exceptions;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException(String message) {
