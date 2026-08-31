@@ -125,7 +125,7 @@ Como evoluções futuras planejo realizar algumas dessas:
 - [ ] Docker
 - [ ] CI/CD
 
-      Até o momento tenho uma aplicação como projeto que utiliza de boa parte dessas funcionalidades que eu talvez implementaria aqui, então por uma parte não vejo muito sentindo em adicioná-los nesse projeto de MovieCRUD, já que a intenção aqui foi focar apenas no básico, porém alguns dessas funções poderiam sim ser aplicadas a ele.
+> Até o momento tenho uma aplicação como projeto que utiliza de boa parte dessas funcionalidades que eu talvez implementaria aqui, então por uma parte não vejo muito sentindo em adicioná-los nesse projeto de MovieCRUD, já que a intenção aqui foi focar apenas no básico, porém alguns dessas funções poderiam sim ser aplicadas a ele.
 
 ---
 
